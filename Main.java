@@ -2,7 +2,7 @@ class Main{
     public static void main(String[] args) {
         TablePairEncryption tablePairEncryption = new TablePairEncryption();
 
-        String text = "JHOROSS TORRES";
+        String text = "THE QUICK LITTE BROWN FOX JUMPS OVER THE LAZY DOG";
         StringBuilder encrypt = tablePairEncryption.encrypt(text);
         StringBuilder decrypt = tablePairEncryption.decrypt(encrypt.toString());
 
